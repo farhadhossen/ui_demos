@@ -59,7 +59,7 @@ class HomeView extends GetView<HomeController> {
                             children: const  [
                               Text("Welcome", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),),
                               // Text("Mr. Police", style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),),
-                              Text("IGP, Dhaka", style: TextStyle(color: Colors.white, fontSize: 16, ),),
+                              Text("IGP", style: TextStyle(color: Colors.white, fontSize: 16, ),),
                             ],
                           ),
                         ),
@@ -77,6 +77,7 @@ class HomeView extends GetView<HomeController> {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(15.0)
                       ),
+                      // color: Colors.transparent,
                       child: Container(
                         height: screenSize.height*0.20,
                         width: screenSize.width*0.40,
@@ -124,7 +125,7 @@ class HomeView extends GetView<HomeController> {
                               flex: 2,
                               child: FittedBox(
                                 fit: BoxFit.fill,
-                                child: Text("Qr\nScanner", textAlign: TextAlign.center, style: TextStyle(color: AppColor.policeBlue,),),
+                                child: Text("\nReports", textAlign: TextAlign.center, style: TextStyle(color: AppColor.policeBlue,),),
                               ),
                             )
                           ],
